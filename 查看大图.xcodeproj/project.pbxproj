@@ -415,10 +415,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yuqi Liu (C65KKZNS3M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = "查看大图/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Zero.----";
+				PRODUCT_BUNDLE_IDENTIFIER = Zero.coming;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b3ebc860-342c-467e-8849-b3df48e77082";
 			};
 			name = Debug;
 		};
@@ -426,10 +429,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yuqi Liu (C65KKZNS3M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = "查看大图/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Zero.----";
+				PRODUCT_BUNDLE_IDENTIFIER = Zero.coming;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b3ebc860-342c-467e-8849-b3df48e77082";
 			};
 			name = Release;
 		};
@@ -500,6 +506,7 @@
 				8134F98B1CD5A7ED00B276E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8134F98C1CD5A7ED00B276E0 /* Build configuration list for PBXNativeTarget "查看大图Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +515,7 @@
 				8134F98E1CD5A7ED00B276E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8134F98F1CD5A7ED00B276E0 /* Build configuration list for PBXNativeTarget "查看大图UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +524,7 @@
 				8134F9911CD5A7ED00B276E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
